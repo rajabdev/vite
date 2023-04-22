@@ -4,7 +4,6 @@ import react from '@vitejs/plugin-react-swc';
 import eslint from 'vite-plugin-eslint';
 
 export default defineConfig({
-	base: '/vite/',
 	plugins: [react(), eslint()],
 	css: {
 		devSourcemap: true
