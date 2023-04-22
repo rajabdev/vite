@@ -12,7 +12,7 @@ const root = createRoot(container);
 
 root.render(
 	<StrictMode>
-		<BrowserRouter>
+		<BrowserRouter basename="https://rajabdev.github.io/vite/">
 			<App />
 		</BrowserRouter>
 	</StrictMode>,
